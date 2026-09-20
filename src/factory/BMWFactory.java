@@ -1,4 +1,5 @@
 package factory;
+// factory for BMW vehicles
 
 public class BMWFactory extends VehicleFactory {
     @Override

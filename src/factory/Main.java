@@ -2,8 +2,8 @@ package factory;
 
 public class Main {
     public static void main(String[] args) {
-        VehicleFactory bmwFactory = new BMWFactory();
-        Car bmw5 =  bmwFactory.createCar();
+        VehicleFactory bmwFactory = new BMWFactory(); //creating factory for bmw cars
+        Car bmw5 =  bmwFactory.createCar(); // i instantiated bmw with interface
         Motorcycle bmwF450GS = bmwFactory.createMotorcycle();
         bmw5.startCar();
         bmwF450GS.startMotorCycle();

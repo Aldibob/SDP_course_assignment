@@ -1,4 +1,5 @@
 package factory;
+// factory for Honda vehicles
 
 public class HondaFactory extends VehicleFactory{
     @Override
