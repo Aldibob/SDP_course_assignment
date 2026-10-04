@@ -7,7 +7,7 @@ public class Rectangle extends Shape {
 
     @Override
     public void create() {
-        System.out.println("Rectangle ");
+        System.out.println("Rectangle");
         color.fillColor();
     }
 }
