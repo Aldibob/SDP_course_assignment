@@ -14,4 +14,35 @@ Builder_pattern.CarDirector is a director of my concrete builders. This class co
 Concerete builders, Builder_pattern.DailyCar and Builder_pattern.SportCar each represent it's type of car, for example: Cars for daily usage that prioritize comfort, trunk capacity and so on.
 Sport cars for races and drift.
 
+
+FACTORY METHOD AND ABSTRACT FACTORY
+
+MAIN IDEA
+
+The Factory Method pattern defines a method for creating an object, while allowing subclasses to decide which concrete object should be created.
+Instead of creating objects directly with new in the client code, object creation is delegated to a factory method.
+
+The Abstract Factory pattern provides an interface for creating families of related objects without specifying their concrete classes.
+A factory is responsible for creating several related products that are designed to work together.
+
+STRUCTURE
+
+Abstract Factory(VehicleFactory) — declares methods for creating products.
+Concrete Factories(BMWFactory, HondaFactory) — create a specific family of products.
+Abstract Products(Car and Motorcycle) — interfaces for product types.
+Concrete Products(HondaCar, BMWCar and etc.) — implementations belonging to a specific product family.
+Client(Main) — works only with abstract interfaces.
+
+ADVANTAGES
+
+Reduces coupling between client code and concrete classes.
+Uses polymorphism instead of conditional type checking.
+Makes it easier to add new product types.
+Keeps object creation in a dedicated place.
+
+Creates compatible families of objects.
+Keeps concrete classes hidden from the client.
+Makes it easier to switch between product families.
+Reduces dependencies between the client and concrete implementations.
+
 I created it with IDE intelliJ IDEA (Akhtanov Aldiyar)
