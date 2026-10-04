@@ -1,4 +1,5 @@
 package Bridge_pattern;
+// Refined abstraction 2: Rectangle
 
 public class Rectangle extends Shape {
     public Rectangle(Color color) {
@@ -7,7 +8,7 @@ public class Rectangle extends Shape {
 
     @Override
     public void create() {
-        System.out.println("Rectangle");
+        System.out.println("Creating rectangle");
         color.fillColor();
     }
 }

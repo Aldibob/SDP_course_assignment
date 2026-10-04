@@ -1,4 +1,5 @@
 package Bridge_pattern;
+// Refined abstraction 1: Triangle
 
 public class Triangle extends Shape {
     public Triangle(Color color) {
@@ -7,7 +8,7 @@ public class Triangle extends Shape {
 
     @Override
     public void create() {
-        System.out.println("Triangle");
+        System.out.println("Creating triangle");
         color.fillColor();
     }
 }
