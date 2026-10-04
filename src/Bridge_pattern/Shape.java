@@ -6,5 +6,6 @@ abstract class Shape {
     protected Shape(Color color) {
         this.color = color;
     }
+    abstract public void create();
 }
 
