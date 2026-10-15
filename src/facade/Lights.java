@@ -6,8 +6,8 @@ public class Lights {
         System.out.println("Theater lights on");
     }
 
-    public void setBrightness(int brightness) {
-        System.out.println("Setting brightness of the lights to " + brightness);
+    public void dim(int brightness) {
+        System.out.println("Setting brightness of the dimming lights to " + brightness + "%");
     }
 
     public void Off() {

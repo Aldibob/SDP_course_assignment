@@ -7,7 +7,7 @@ public class Amplifier {
     }
 
     public void setVolume(int volume) {
-        System.out.println("Volume of the theater is " + volume);
+        System.out.println("Setting volume of the Theater to " + volume);
     }
 
     public void Off() {
