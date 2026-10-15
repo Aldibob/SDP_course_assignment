@@ -1,18 +1,16 @@
 package facade;
 
 public class Lights {
-    int brightness;
 
-    public Lights(int brightness) {
-        this.brightness = brightness;
-    }
-
-    public void LightsOn() {
-        System.out.println("Lights: on");
+    public void On() {
+        System.out.println("Theater lights on");
     }
 
     public void setBrightness(int brightness) {
-        this.brightness = brightness;
-        System.out.println("Brightness of the lights: " + this.brightness);
+        System.out.println("Setting brightness of the lights to " + brightness);
+    }
+
+    public void Off() {
+        System.out.println("Theater lights off");
     }
 }

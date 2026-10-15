@@ -2,11 +2,15 @@ package facade;
 
 public class PopcornPopper {
 
-    public void PopcornPopperOn() {
-        System.out.println("Popcorn-Popper: on");
+    public void On() {
+        System.out.println("Popcorn-Popper on");
     }
 
-    public void PopPopcorn() {
+    public void Pop() {
         System.out.println("Popcorn-Popper popping popcorn!");
+    }
+
+    public void Off() {
+        System.out.println("Popcorn-Popper off");
     }
 }
