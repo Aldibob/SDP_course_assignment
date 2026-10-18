@@ -17,7 +17,6 @@ public class HomeTheaterFacade {
         popcornPopper = new PopcornPopper();
     }
 
-
     public void watchMovie(String movie) {
         System.out.println("Preparing to watch movie...");
         popcornPopper.On();
