@@ -3,30 +3,30 @@ package strategy;
 public class Main {
     static void main() {
         CalculationContext context = new CalculationContext(new AdditionStrategy());
-        double addition_Number1 = 15.5f;
-        double addition_Number2 = 15.5f;
-        context.showCalculation(addition_Number1, addition_Number2);
+        double additionNumber1 = 15.5;
+        double additionNumber2 = 15.5;
+        context.executeCalculation(additionNumber1, additionNumber2);
 
 
         context.setCalculationStrategy(new SubtractionStrategy());
-        double subtraction_Number1 = 13.1f;
-        double subtraction_Number2 = 13.1f;
-        context.showCalculation(subtraction_Number1, subtraction_Number2);
+        double subtractionNumber1 = 13.1;
+        double subtractionNumber2 = 13.1;
+        context.executeCalculation(subtractionNumber1, subtractionNumber2);
 
 
         context.setCalculationStrategy(new MultiplicationStrategy());
-        double multiplication_number1 = 2.4f;
-        double multiplication_number2 = 2.4f;
-        context.showCalculation(multiplication_number1, multiplication_number2);
+        double multiplicationNumber1 = 2.4;
+        double multiplicationNumber2 = 2.4;
+        context.executeCalculation(multiplicationNumber1, multiplicationNumber2);
 
         context.setCalculationStrategy(new DivisionStrategy());
-        double division_Number1 = 4f;
-        double division_Number2 = 6.5f;
-        context.showCalculation(division_Number1, division_Number2);
+        double divisionNumber1 = 4f;
+        double divisionNumber2 = 6.5;
+        context.executeCalculation(divisionNumber1, divisionNumber2);
 
         context.setCalculationStrategy(new DivisionStrategy());
-        double division_Number3 = 4f;
-        double division_Number4 = 0f;
-        context.showCalculation(division_Number3, division_Number4);
+        double divisionNumber3 = 4;
+        double divisionNumber4 = 0;
+        context.executeCalculation(divisionNumber3, divisionNumber4);
     }
 }
