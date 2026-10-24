@@ -11,7 +11,7 @@ public class CalculationContext {
         this.calculationStrategy = strategy;
     }
 
-    public void showCalculation(int a, int b) {
+    public void showCalculation(double a, double b) {
         calculationStrategy.calculate(a, b);
     }
 }
