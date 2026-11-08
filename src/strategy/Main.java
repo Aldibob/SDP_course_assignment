@@ -24,7 +24,6 @@ public class Main {
         double divisionNumber2 = 6.5;
         context.executeCalculation(divisionNumber1, divisionNumber2);
 
-        context.setCalculationStrategy(new DivisionStrategy());
         double divisionNumber3 = 4;
         double divisionNumber4 = 0;
         context.executeCalculation(divisionNumber3, divisionNumber4);
