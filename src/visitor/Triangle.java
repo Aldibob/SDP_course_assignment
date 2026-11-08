@@ -29,6 +29,6 @@ public class Triangle implements  Shape {
     @Override
     public void accept(ShapeVisitor shapeVisitor) {
         Objects.requireNonNull(shapeVisitor, "Shape visitor cannot be null");
-        shapeVisitor.visit(this);
+        shapeVisitor.visitTriangle(this);
     }
 }

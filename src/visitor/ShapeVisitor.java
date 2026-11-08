@@ -1,9 +1,9 @@
 package visitor;
 
 public interface ShapeVisitor {
-    void visit(Circle circle);
+    void visitCircle(Circle circle);
 
-    void visit(Square square);
+    void visitSquare(Square square);
 
-    void visit(Triangle triangle);
+    void visitTriangle(Triangle triangle);
 }

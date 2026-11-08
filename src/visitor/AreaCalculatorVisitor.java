@@ -5,17 +5,17 @@ public class AreaCalculatorVisitor implements ShapeVisitor {
     private double totalArea;
 
     @Override
-    public void visit(Circle circle) {
+    public void visitCircle(Circle circle) {
         totalArea += PI * circle.getRadius() * circle.getRadius();
     }
 
     @Override
-    public void visit(Square square) {
+    public void visitSquare(Square square) {
         totalArea += square.getSide() * square.getSide();
     }
 
     @Override
-    public void visit(Triangle triangle) {
+    public void visitTriangle(Triangle triangle) {
         totalArea += (0.5) * triangle.getBase() * triangle.getHeight();
     }
 
