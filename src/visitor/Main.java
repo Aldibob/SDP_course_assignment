@@ -11,9 +11,9 @@ public class Main {
         AreaCalculatorVisitor calculatorVisitor = new AreaCalculatorVisitor();
         ExportVisitor exportVisitor = new ExportVisitor();
 
-        for (Shape Shape : arrayShape) {
-            Shape.accept(calculatorVisitor);
-            Shape.accept(exportVisitor);
+        for (Shape shape : arrayShape) {
+            shape.accept(calculatorVisitor);
+            shape.accept(exportVisitor);
         }
 
         System.out.println("Total Area: " + calculatorVisitor.getTotalArea());
