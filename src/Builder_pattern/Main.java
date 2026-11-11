@@ -5,7 +5,6 @@ public class Main {
         CarDirector director = new CarDirector(); // created director
         Car car = director.makeDailyCar(new DailyCar());// Building Daily car
 
-        CarDirector sport_car_director = new CarDirector();
         Car sport_car = director.makeSportCar(new SportCar());
 
         System.out.print(car.getWheels());

@@ -1,7 +1,7 @@
 package visitor;
 
 public class Main {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         Shape[] arrayShape = new Shape[]{
                 new Circle(6),
                 new Square(4),
